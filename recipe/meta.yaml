@@ -1,5 +1,5 @@
 {% set name = "hspf_utils" %}
-{% set version = "6.0.5" %}
+{% set version = "6.0.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/hspf_utils-{{ version }}.tar.gz
-  sha256: 157c8aa51f6079943d53c0cbdae2d8cd8576da7e393cf2f422f14e3d2c727bf4
+  sha256: 116040df9554de20595902892802fb8c58db903843c18774a9d936aad9b943b1
 
 build:
   entry_points:
