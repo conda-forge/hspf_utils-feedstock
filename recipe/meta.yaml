@@ -14,7 +14,7 @@ build:
     - hspf_utils = hspf_utils.hspf_utils:main
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 2
 
 requirements:
   host:
@@ -27,7 +27,6 @@ requirements:
     - python >={{ python_min }}
     - numpy
     - pandas
-    - toolbox_utils
     - cltoolbox >1.1.0
     - hspfbintoolbox >=9.0.0,<10.0.0
 
